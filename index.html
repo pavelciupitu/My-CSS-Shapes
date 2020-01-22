@@ -133,7 +133,7 @@
     <div class="star">
     </div >
     <br>
-    <pre>
+    <pre class="moveRight">
         .star {
             width: 0;
             height: 0;
@@ -154,5 +154,33 @@
             left: -50px;""
     </pre>
     <br>
+    <div class="hourglass">
+    </div >
+    <br>
+    <pre class="moveRight">
+        .hourglass {
+            width: 0;
+            height:0;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            border-top: 100px solid red;
+            position: relative;
+            border-radius: 30px;
+        }
+        .hourglass:after {
+            width: 0;
+            height: 0;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            border-bottom: 100px solid red;
+            position: absolute;
+            content: "";
+            top: -20px;
+            left: -60px;
+            border-radius: 30px;
+        }
+    </pre>
+    <br>
+
 </body>
 </html>
